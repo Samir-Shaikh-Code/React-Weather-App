@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.DisplayWeatherInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+h1, #searchButton{
+    margin: 20px 0px;
+}
+#weatherInfoCard{
+    width: 300px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.75)
+}
+
+.errorMessage {
+  color: red;
+  margin: 10px 0;
+  font-weight: bold;
+}
+p{
+    margin: 10px 0px;
+}
